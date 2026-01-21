@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+</head>
+<body>
+    <h2>Student registration Form</h2>
+    <Form>
+        <fieldset>
+            <legend>Personnal information</legend>
+    <label for="fName">Full Name</label>
+    <input type="text" id="fname" required><br><br>
+    <lable for="email">Email Address</lable>
+    <input type="email" id="email"><br><br>
+    <lable for="phone">phone number</lable>
+    <input type="tel" id="phone" placeholder="0712345678"><br>
+    <lable for="dob">Date of Birth</lable>
+    <input type="date" id="dob"><br><br>
+    <label>Gender</label><br><br>
+    <lable for="male">Male</lable>
+    <input type="radio" id="male" name="gender"><br><br>
+    <lable for="female">female</lable>
+    <input type="radio" id="female" name="gender"><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Acadamic information</legend>
+    <lable for="cource">cource</lable>
+    <select id="cource">
+        <option value="full stack">full stack</option>
+        <option value="Cyber Security">Cyber Security</option>
+        <option value="data">Data Science</option>
+        <option value="AI">Artificial Intelligence</option>
+    </select><br><br>
+    <lable for="my file">upload file</lable>
+    <input type="file" id="myfile" accept="image/*"><br>
+    <lable for="terms">Accept terms and  conditions</lable>
+    <input type="checkbox" id="terms"><br><br>
+    </fieldset>
+    <button type="submit">REGISTER</button><BR></BR>
+    <button type="reset">CLEAR FORM</button>
+</body>
+</html>

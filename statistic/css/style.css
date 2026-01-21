@@ -1,0 +1,59 @@
+body{
+    background-color: white;
+    background-image: url(../images/landscape.jpeg);
+}
+
+h1{
+    color: rgb(0, 255, 136);
+    background-color: beige;
+    text-align: center;
+    text-decoration: rgb(255, 0, 64);
+}
+p{
+
+}
+#header{
+    color: rgb(0, 255, 34);
+    background-color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+#content{
+    text-decoration: aliceblue;
+    width: 80%;
+    margin: auto;
+}
+.chrome{
+    background-color: aliceblue;
+}
+
+#hero{
+    text-align: center;
+    margin: auto;
+    background-size: cover;
+    padding-top: 90px;
+    color: aliceblue;
+    height: 450px;
+}
+#nav ul{
+    list-style-type: none;
+    text-align: center;
+    
+}
+#nav ul li{
+    display: inline;
+    margin: 0 15px;
+    
+}
+#nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding:8px 12px;
+}
+#nav ul li a:hover{
+    color: purple;
+    background-color: blue;
+
+}
