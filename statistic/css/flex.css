@@ -1,6 +1,11 @@
 body{
     background-color: white;
     font-family: 'Times New Roman', Times, serif;
+    background-image: url(../images/Mt-Everest-scaled.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1052px 962px;
+    
 }
 #container{
     background-color: bisque;
@@ -8,6 +13,7 @@ body{
     display: flex;
     gap: 10px;
     justify-content: center;
+    color: white;
 }
 service{
  border: 1px solid gray;
